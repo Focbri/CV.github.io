@@ -1,0 +1,196 @@
+*{/*Selecciona todos los elementos en General*/
+    font-family: 'Varela Round', sans-serif;    /*Tipo/Fuente de Letra*/
+    margin: 0;  /*Espacio por Fuera de los Elementos*/
+    padding: 0; /*Espacio dentro del elemento*/ 
+    font-size: 16px;    /*Tamaño de Fuente de Letra*/
+    box-sizing: border-box;
+    font-family:area-normal, sans-serif;;
+}
+/*---------------------------------Menu de Enlaces--------------------------*/
+.menu{
+    background-color: #212B38;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+.menu a{
+    text-decoration: none;
+    color: #726EFF;
+    display: inline-block;
+    padding: .5em;
+}
+.menu a:hover{
+    color: #5AFFE7;
+}
+/*--------------------- Principal ------------------------*/
+.principal{
+    background-color: #37465B;
+    height: 30em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.principal h1{
+    font-size: 2.5em;
+}
+.principal h2{
+    font-size: 1.5em;
+}
+.principal img{
+    height: 13em;
+    width: 10em;
+    border: #212B38 2px solid;
+    border-radius: 6em;
+    box-shadow: 0 0 1px 2px #212B38;;
+    margin-bottom: 2em;
+}
+
+/*---------------------- Sobre MI -------------------------*/
+.sobre-mi h2{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 1.8em;
+}
+.sobre-mi img{
+    height: 7em;
+    width: 10em;
+    border: #212B38 2px solid;
+    border-radius: 1em;
+    margin-top: 2em;
+}
+.sobre-mi{
+    background-color: #08C6AB;
+    height: 32em;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sobre-mi p{
+    width: 38em;
+}
+/*------------------------ Habilidades -----------------------*/
+.habilidades{
+    background-color: #37465B;
+    height: 32em;
+    display: flex;
+    padding: 1.5em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.habilidades h2{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 1.8em;
+    color: black;
+}
+.habilidades-contenido{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15em;
+    padding-right: 7em;
+    gap: 6em;
+}
+.habilidades-contenido ul{
+    list-style: none;
+}
+.columna-habilidades1 h3{
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: 16px;
+}
+.columna-habilidades2{
+    display: flex;
+    width: 21em;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.columna-habilidades2 h3{
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+.columna-habilidades2 img{
+    width: 3em;
+    height: 2.5em;
+}
+
+/*---------------------------------- Proyectos ---------------------------------*/
+.proyectos h2{
+    font-size: 1.8em;
+    color: black;
+}
+.proyectos a{
+    color: #182625;
+    text-decoration: none;
+}
+.contenido-proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70em;
+    padding: 1.5em ;
+    text-align: center;
+    gap: 4em;
+}
+.contenido-proyectos img{
+    height: 18em;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5em;
+}
+.proyectos{
+    background-color: #08C6AB;
+    height: 82em;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/*------------------------------------ Contactame ----------------------------*/
+.contactame h2{
+    text-align: center;
+    font-size: 1.8em;
+    padding-bottom: .5em;
+}
+.contenido-contactame {
+    display: flex;
+    gap: 1em;
+}
+.contactame a{
+    color: #726EFF;
+}
+.contactame a:hover{
+    color: #5AFFE7;
+}
+.contactame{
+    background-color: #212B38;
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media(max-width:465px){  /*-----------RESPONSIVE DESING (PONES EL ANCHO MAX A MODIFICAR)---------*/
+    .contenido-sobre-mi{ /*-----------PONES LA CLASE O ID QUE QUIERES MODIFICAR------*/
+        height: 40em;
+    }
+
+}
